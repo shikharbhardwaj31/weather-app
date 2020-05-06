@@ -16,7 +16,7 @@ app.use(express.static(htmlPath))
 hbs.registerPartials(partialsPath)
 
 app.get('',(req,res)=>{
-    res.render('index',{
+    res.render('index.hbs',{
         title : 'Weather App',
         data : 'Shikhar',
         header : 'Weather'
