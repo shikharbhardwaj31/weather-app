@@ -1,9 +1,3 @@
-
-
-console.log('Client side javascript')
-
-
-
 const loc = document.querySelector('form')
 const search = document.querySelector('input')
 
